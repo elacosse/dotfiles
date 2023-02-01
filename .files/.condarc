@@ -1,0 +1,8 @@
+anaconda_upload: true
+
+channels:
+  - conda-forge
+
+always_yes: true
+
+auto_update_conda: true
