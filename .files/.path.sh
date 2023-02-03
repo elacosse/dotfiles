@@ -9,7 +9,7 @@ export PATH="$PATH:/usr/local/bin"
 case "$OSTYPE" in
   linux*)
     echo "Adding dat to PATH"
-    export PATH=$PATH:/home/ericmjl/.dat/releases/dat-13.11.5-linux-x64
+    export PATH=$PATH:$HOME/.dat/releases/dat-13.11.5-linux-x64
 
     # Linuxbrew stuff must take 2nd fiddle to conda,
     # so we add this first, then add conda paths.
