@@ -11,6 +11,7 @@ export BREW_PACKAGES=(
   "micro"           # micro text editor
   "mobile-shell"    # mobile shell
   "nvim"            # neovim
+  "poetry"          # poetry for virtual environments
   "ripgrep"         # A replacement for grep: https://github.com/BurntSushi/ripgrep
   "tmux"            # window management https://tmux.github.io/
   "tree"            # get the standard "tree" command on Linux.
