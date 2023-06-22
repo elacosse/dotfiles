@@ -1,4 +1,5 @@
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -O $HOME/anaconda.sh
+# wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -O $HOME/anaconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.sh -O $HOME/anaconda.sh
 chmod +x $HOME/anaconda.sh
 $HOME/anaconda.sh -b -p $HOME/anaconda
 rm $HOME/anaconda.sh
