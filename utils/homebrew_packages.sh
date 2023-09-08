@@ -15,6 +15,7 @@ export BREW_PACKAGES=(
   "ripgrep"         # A replacement for grep: https://github.com/BurntSushi/ripgrep
   "tmux"            # window management https://tmux.github.io/
   "tree"            # get the standard "tree" command on Linux.
+  "vale"            # linting for prose
   "vim"             # get an enhanced vim
   "wget"            # curl alternative https://www.gnu.org/software/wget/
   "zsh"             # z-shell
