@@ -8,9 +8,7 @@ if [[ $? == 0 ]]; then
 fi
 alias l='ls'
 alias reshell="source $HOME/.zshrc"
-alias shelledit="nano $HOME/.zshrc"
-alias pico="nano"
-alias nano="nano --softwrap"
+alias shelledit="vim $HOME/.zshrc"
 alias cat="bat"
 alias diff="diff-so-fancy"
 alias find="fd"
