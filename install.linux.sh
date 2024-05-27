@@ -25,12 +25,17 @@ chmod +x ./install_scripts/install_ohmyzsh.sh
 ./install_scripts/install_ohmyzsh.sh
 chmod -x ./install_scripts/install_ohmyzsh.sh
 
-# Step 6: Install poetry
+# Step 7: Install poetry
 chmod +x ./install_scripts/install_poetry.sh
 ./install_scripts/install_poetry.sh
 chmod -x ./install_scripts/install_poetry.sh
 
-# Step 8: Now install zshrc from this repo
+# Step 8: Install poetry
+chmod +x ./install_scripts/install_pixi.sh
+./install_scripts/install_pixi.sh
+chmod -x ./install_scripts/install_pixi.sh
+
+# Step 9: Now install zshrc from this repo
 chmod +x ./install_scripts/install_dotfiles.sh
 ./install_scripts/install_dotfiles.sh
 chmod -x ./install_scripts/install_dotfiles.sh
