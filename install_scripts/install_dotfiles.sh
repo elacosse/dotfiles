@@ -6,7 +6,6 @@ rm $HOME/.zshrc
 ln -svf `pwd`/.files/.zshrc $HOME
 ln -svf `pwd`/.files/.path.sh $HOME
 ln -svf `pwd`/.files/.shortcuts.sh $HOME
-ln -svf `pwd`/shell_aliases $HOME
 
 # Then, install the other dotfiles
 ln -svf `pwd`/.files/.condarc $HOME
