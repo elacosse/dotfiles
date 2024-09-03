@@ -1,11 +1,8 @@
 # Command line tool shell aliases
 
 alias ..='cd ..'
-which exa
-if [[ $? == 0 ]]; then
-    alias ls='exa --long --git -a --header --group'
-    alias tree='exa --tree --level=2 --long -a --header --git'
-fi
+alias ls='lsd --long --git -a --header'
+alias tree='lsd --tree --long -a --header --git'
 alias l='ls'
 alias reshell="source $HOME/.zshrc"
 alias shelledit="vim $HOME/.zshrc"
