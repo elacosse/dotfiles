@@ -2,12 +2,12 @@
 export BREW_PACKAGES=(
   "bat"		    	    # A replacement for cat:  https://github.com/sharkdp/bat
   "diff-so-fancy"   # A replacement for diff: https://github.com/so-fancy/diff-so-fancy
-  "exa"             # an enhanced, modern ls
   "fd"		    	    # A replacement for find: https://github.com/sharkdp/fd
   "gcc"             # gnu compiler collection https://gcc.gnu.org/
   "gh"              # github CLI
   "git"             # version control https://git-scm.com/
   "gnu-sed"         # get "standard" sed that is used on Linux.
+  "lsd"             # an enhanced, modern ls
   "micro"           # micro text editor
   "mobile-shell"    # mobile shell
   "nvim"            # neovim
