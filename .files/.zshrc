@@ -102,23 +102,6 @@ source $HOME/.shell_aliases/cli.sh
 source $HOME/.shell_aliases/other.sh
 source $HOME/.shell_aliases/tmux.sh
 
-# Set conda-auto-env
-source $HOME/.scripts/conda_auto_env.zsh
-
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('$HOME/anaconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "$HOME/anaconda/etc/profile.d/conda.sh" ]; then
-        . "$HOME/anaconda/etc/profile.d/conda.sh"
-    else
-        export PATH="$HOME/anaconda/bin:$PATH"
-    fi
-fi
-unset __conda_setup
 # <<< conda initialize <<<
 
 precmd() { eval "$PROMPT_COMMAND" }

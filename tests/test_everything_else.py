@@ -22,8 +22,6 @@ def test_path_environment_variable():
     expected_paths = list(
         str(p)
         for p in (
-            homedir / "anaconda/bin",
-            homedir / "anaconda/condabin",
             homedir / ".linuxbrew/bin",
             homedir / ".linuxbrew/sbin",
             homedir / "bin",

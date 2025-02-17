@@ -15,11 +15,6 @@ chmod +x ./install_scripts/install_homebrew_packages.sh
 ./install_scripts/install_homebrew_packages.sh
 chmod -x ./install_scripts/install_homebrew_packages.sh
 
-# Step 4: Install Anaconda
-chmod +x ./install_scripts/install_anaconda-linux.sh
-./install_scripts/install_anaconda-linux.sh
-chmod -x ./install_scripts/install_anaconda-linux.sh
-
 # Step 6: Install oh-my-zsh
 chmod +x ./install_scripts/install_ohmyzsh.sh
 ./install_scripts/install_ohmyzsh.sh

@@ -2,7 +2,6 @@ FILES_TO_TEST=(
     "$HOME/.zshrc"
     "$HOME/.path.sh"
     "$HOME/.shortcuts.sh"
-    "$HOME/.condarc"
     "$HOME/.gitconfig"
     "$HOME/.ssh/config"
     "$HOME/.tmux.conf"
