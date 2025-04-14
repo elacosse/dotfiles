@@ -30,7 +30,12 @@ chmod +x ./install_scripts/install_pixi.sh
 ./install_scripts/install_pixi.sh
 chmod -x ./install_scripts/install_pixi.sh
 
-# Step 9: Now install zshrc from this repo
+# Step 9: Install uv
+chmod +x ./install_scripts/install_uv.sh
+./install_scripts/install_uv.sh
+chmod -x ./install_scripts/install_uv.sh
+
+# Step 10: Now install zshrc from this repo
 chmod +x ./install_scripts/install_dotfiles.sh
 ./install_scripts/install_dotfiles.sh
 chmod -x ./install_scripts/install_dotfiles.sh
