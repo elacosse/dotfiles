@@ -25,7 +25,7 @@ chmod +x ./install_scripts/install_poetry.sh
 ./install_scripts/install_poetry.sh
 chmod -x ./install_scripts/install_poetry.sh
 
-# Step 8: Install poetry
+# Step 8: Install pixi
 chmod +x ./install_scripts/install_pixi.sh
 ./install_scripts/install_pixi.sh
 chmod -x ./install_scripts/install_pixi.sh
