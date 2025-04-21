@@ -104,7 +104,8 @@ source $HOME/.shell_aliases/tmux.sh
 
 # <<< conda initialize <<<
 
-precmd() { eval "$PROMPT_COMMAND" }
+# precmd() { eval "$PROMPT_COMMAND" }
 
 # starship init: https://starship.rs/guide/#🚀-installation
 eval "$(starship init zsh)"
+eval "$(pixi completion --shell zsh)"
