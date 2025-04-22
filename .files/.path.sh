@@ -21,11 +21,6 @@ esac
 echo "Adding Homebrew to PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Enable conda
-echo "Adding conda to PATH"
-source $HOME/anaconda/etc/profile.d/conda.sh
-conda activate
-
 # Enable flyctl
 export PATH=$HOME/.fly/bin:$PATH
 
