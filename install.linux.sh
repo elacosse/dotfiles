@@ -39,3 +39,8 @@ chmod -x ./install_scripts/install_uv.sh
 chmod +x ./install_scripts/install_dotfiles.sh
 ./install_scripts/install_dotfiles.sh
 chmod -x ./install_scripts/install_dotfiles.sh
+
+# Step 11: Install Gemini Code Assistant
+chmod +x ./install_scripts/install_code_assist.sh
+./install_scripts/install_code_assist.sh
+chmod -x ./install_scripts/install_code_assist.sh
