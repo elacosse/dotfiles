@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -102,10 +103,22 @@ source $HOME/.shell_aliases/cli.sh
 source $HOME/.shell_aliases/other.sh
 source $HOME/.shell_aliases/tmux.sh
 
-# <<< conda initialize <<<
 
 # precmd() { eval "$PROMPT_COMMAND" }
 
 # starship init: https://starship.rs/guide/#🚀-installation
 eval "$(starship init zsh)"
 eval "$(pixi completion --shell zsh)"
+
+# pixi
+export PATH=/Users/eric/.pixi/bin:$PATH
+eval "$(pixi completion --shell zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/eric/.lmstudio/bin"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

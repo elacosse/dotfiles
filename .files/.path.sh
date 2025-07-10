@@ -24,8 +24,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 # Enable flyctl
 export PATH=$HOME/.fly/bin:$PATH
 
-# Enable poetry
-export PATH=$HOME/.local/bin:$PATH
+# Enable cargo
+# export PATH=$HOME/.cargo/bin:$PATH
+source $HOME/.cargo/env
 
 # Finally, echo the state of the PATH environment variable.
 echo "State of PATH environment variable:"

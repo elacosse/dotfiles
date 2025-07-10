@@ -44,3 +44,7 @@ chmod -x ./install_scripts/install_dotfiles.sh
 chmod +x ./install_scripts/install_code_assist.sh
 ./install_scripts/install_code_assist.sh
 chmod -x ./install_scripts/install_code_assist.sh
+# Step 10: Install cargo
+chmod +x ./install_scripts/install_cargo.sh
+./install_scripts/install_cargo.sh
+chmod -x ./install_scripts/install_cargo.sh
