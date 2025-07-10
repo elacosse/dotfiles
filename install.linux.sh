@@ -44,7 +44,13 @@ chmod -x ./install_scripts/install_dotfiles.sh
 chmod +x ./install_scripts/install_code_assist.sh
 ./install_scripts/install_code_assist.sh
 chmod -x ./install_scripts/install_code_assist.sh
-# Step 10: Install cargo
+
+# Step 12: Install cargo
 chmod +x ./install_scripts/install_cargo.sh
 ./install_scripts/install_cargo.sh
 chmod -x ./install_scripts/install_cargo.sh
+
+# Step 13: Install zellij
+chmod +x ./install_scripts/install_zellij.sh
+./install_scripts/install_zellij.sh
+chmod -x ./install_scripts/install_zellij.sh
