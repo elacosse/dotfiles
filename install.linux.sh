@@ -1,4 +1,5 @@
 # Linux installation script.
+source ~/.zshrc
 
 # Step 1: Create directories
 chmod +x ./install_scripts/create_directories.sh
@@ -12,7 +13,7 @@ chmod -x ./install_scripts/install_linuxbrew.sh
 
 # Step 3: Install additional packages using Homebrew
 chmod +x ./install_scripts/install_homebrew_packages.sh
-./install_scripts/install_homebrew_packages.sh
+# ./install_scripts/install_homebrew_packages.sh
 chmod -x ./install_scripts/install_homebrew_packages.sh
 
 # Step 6: Install oh-my-zsh
@@ -39,6 +40,8 @@ chmod -x ./install_scripts/install_code_assist.sh
 chmod +x ./install_scripts/install_cargo.sh
 ./install_scripts/install_cargo.sh
 chmod -x ./install_scripts/install_cargo.sh
+source ~/.bashrc
+source ~/.zshrc
 
 # Step 11: Install zellij
 chmod +x ./install_scripts/install_zellij.sh

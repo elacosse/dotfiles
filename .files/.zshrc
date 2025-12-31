@@ -82,9 +82,9 @@ export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nano'
+  export EDITOR='vim'
 else
-  export EDITOR='nano'
+  export EDITOR='vim'
 fi
 
 # Source other utilities
@@ -103,24 +103,13 @@ source $HOME/.shell_aliases/cli.sh
 source $HOME/.shell_aliases/other.sh
 source $HOME/.shell_aliases/tmux.sh
 
-
 # precmd() { eval "$PROMPT_COMMAND" }
 
 # starship init: https://starship.rs/guide/#🚀-installation
 eval "$(starship init zsh)"
-eval "$(pixi completion --shell zsh)"
-
-# pixi
-export PATH=/Users/eric/.pixi/bin:$PATH
-eval "$(pixi completion --shell zsh)"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/eric/.lmstudio/bin"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+# if [ -f '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/Users/eric/.pixi/bin:$PATH"
-eval "$(pixi completion --shell zsh)"
+# if [ -f '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
