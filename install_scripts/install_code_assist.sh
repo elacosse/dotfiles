@@ -1,3 +1,7 @@
+# Droid
+curl -fsSL https://app.factory.ai/cli | sh
+
+
 # Gemini Code Assistant
 npm install -g @google/gemini-cli
 
