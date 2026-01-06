@@ -1,6 +1,8 @@
 # Droid
 curl -fsSL https://app.factory.ai/cli | sh
 
+# Kilo-CLI
+curl -fsSL https://cli.kiro.dev/install | bash
 
 # Gemini Code Assistant
 npm install -g @google/gemini-cli
