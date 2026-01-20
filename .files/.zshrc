@@ -1,3 +1,7 @@
+
+# Kiro CLI pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=/bin
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -113,3 +117,7 @@ eval "$(starship init zsh)"
 
 # The next line enables shell command completion for gcloud.
 # if [ -f '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/eric/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
