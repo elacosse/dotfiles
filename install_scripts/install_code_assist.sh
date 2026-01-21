@@ -7,6 +7,30 @@ curl -fsSL https://cli.kiro.dev/install | bash
 # Gemini Code Assistant
 npm install -g @google/gemini-cli
 
+# Configure Gemini settings
+GEMINI_DIR="$HOME/.gemini"
+SETTINGS_FILE="$GEMINI_DIR/settings.json"
+cat > "$SETTINGS_FILE" <<'JSON'
+{
+  "context": {
+    "fileName": ["AGENTS.md", "CONTEXT.md", "GEMINI.md"]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "gemini-api-key"
+    }
+  },
+  "ui": {
+    "theme": "Ayu"
+  },
+  "general": {
+    "previewFeatures": true,
+    "enablePromptCompletion": true,
+    "debugKeystrokeLogging": true
+  }
+}
+JSON
+
 # Install Gemini Agents
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 AGENTS_DIR="$SCRIPT_DIR/../agents"
