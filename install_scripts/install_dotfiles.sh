@@ -8,7 +8,6 @@ ln -svf `pwd`/.files/.path.sh $HOME
 ln -svf `pwd`/.files/.shortcuts.sh $HOME
 
 # Then, install the other dotfiles
-ln -svf `pwd`/.files/.condarc $HOME
 ln -svf `pwd`/.files/.gitconfig $HOME
 mkdir -p $HOME/.ssh
 ln -svf `pwd`/.files/.ssh/config $HOME/.ssh/config
